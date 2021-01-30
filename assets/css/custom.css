@@ -1,0 +1,155 @@
+/* Mobile first - up to 565px wide */
+
+#card-form {
+	padding: 0;
+	background-color: white;
+}
+
+#form-img { height: 498px; }
+
+#text-hover { color: rgb(170, 170, 170); }
+
+#text-hover:hover { color: whitesmoke; }
+
+#gray { background-color: lightgray; }
+
+#services {
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
+
+#service-3 { margin-top: 40px; }
+
+.a-vertical { vertical-align: auto; }
+
+.btn-media { display: none; }
+
+.emph { font-weight: 800; }
+
+.hide-sm { display: none; }
+
+.not-show { display: none; }
+
+.carousol { display: block; }
+
+.radio-fs { font-size: 13px; }
+
+.form-contact { display: none; }
+
+.h-498 {
+	height: 498px;
+	overflow: hidden;
+}
+
+.form-template {
+	padding-bottom: 5px;
+	background-color: white;
+}
+
+.btn-red:hover {
+	background-color: #961d31;
+	color: #FFF !important;
+}
+
+.btn-red:active { background-color:#434343; }
+
+.red:hover{ color: white; }
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+	#services {
+		padding-top: 100px; 
+		padding-bottom: 100px;
+	}
+
+	#service-3 { margin-top: 40px; }
+
+	.mleft-130 { margin-left: 85px; }
+
+	.form-contact { display: block; }
+
+	.btn-media { display: none; }
+
+	.hide-sm { display: block; }
+	  
+	.carousol { display: none; }
+
+	.mtop-60 { margin-top: 0; }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+	#services {
+		padding-top: 100px; 
+		padding-bottom: 100px;
+	}
+
+	#service-3 { margin-top: 40px; }
+
+	.mleft-130 { margin-left: 130px; }
+
+	.form-contact { display: block; }
+
+	.marg-add-r { margin-right: 30px; }
+
+	.btn-media { display: none; }
+
+	.hide-sm { display: block; }
+	  
+	.carousol { display: none; }
+	  
+	.mtop-60 { margin-top: 60px; }
+
+}
+
+/* Tablet targetted size */
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+	#services {
+		padding-top: 100px; 
+		padding-bottom: 100px;
+	}
+
+	#service-3 { margin-top: 0; }
+
+	.mleft-130 { margin-left: 130px; }
+
+	.form-contact { display: block; }
+
+	.marg-add-r { margin-right: 30px; }
+
+	.btn-media { display: none; }
+
+	.hide-sm { display: block; }
+	  
+	.carousol { display: none; }
+	  
+	.mtop-60 { margin-top: 60px; }
+
+}
+
+/* Desktop size */
+@media screen and (min-width:1200px) {
+
+	#services {
+		padding-top: 100px; 
+		padding-bottom: 100px;
+	}
+
+	#service-3 { margin-top: 0; }
+
+	.mleft-130 { margin-left: 130px; }
+
+	.form-contact { display: block; }
+
+	.marg-add-r { margin-right: 0; }
+
+	.btn-media   { display: block; }
+
+	.hide-sm { display: block; }
+	  
+	.carousol { display: none; }
+	
+	.mtop-60 { margin-top: 60px; }
+}
